@@ -265,7 +265,7 @@ function App() {
             firebaseAuth = {firebase.auth()}
           />
 
-          <button className= 'app_forgotPassword' onClick= {(e) => {e.preventDefault(); setOpenResetP(true)}}>Forgot password?</button>
+          <button className= 'app_forgotPassword' onClick= {(e) => {e.preventDefault(); setOpenResetP(true)}}>Forgot pass?</button>
         </form>
       </div>
       </Modal>
