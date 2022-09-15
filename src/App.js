@@ -363,7 +363,7 @@ function App() {
         </div>  
         ): (
         <div className= 'app__loginContainer'>
-          <Button onClick= {() => setOpenSignIn(true)}>Log In</Button>
+          <Button onClick= {() => setOpenSignIn(true)}>Sign In</Button>
           <Button onClick= {() => setOpen(true)}>Sign Up</Button>
         </div>
          )}
