@@ -396,7 +396,7 @@ function Homepage() {
                   <span className="app_upload">News</span>
                 </Button>
               </Link>
-              <Button onClick={() => setOpenUpload(true)}>
+              <Button style={{border: "1px solid black"}} onClick={() => setOpenUpload(true)}>
                 <span className="app_upload">Upload</span>
               </Button>
               {user.displayName ? (
