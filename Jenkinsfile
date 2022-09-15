@@ -16,7 +16,10 @@ pipeline {
     }
     post {
         success {
-            mail to: team@example.com, subject: ‘The Pipeline success :(‘
+            mail to: pratikbandal55@gmail.com, subject: ‘The Pipeline success :(‘
+        }
+        failure {
+            mail to: team@example.com, subject: ‘The Pipeline failed :(‘
         }
     }
 }
