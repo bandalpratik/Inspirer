@@ -15,11 +15,15 @@ pipeline {
         }
     }
     post {
-        success {
-            mail to: pratikbandal55@gmail.com, subject: ‘The Pipeline success :(‘
-        }
         failure {
-            mail to: team@example.com, subject: ‘The Pipeline failed :(‘
+            mail to: 'pratikbandal55@gmail.com',
+                subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
+                body: "Something is wrong with ${env.BUILD_URL}"
+        }
+        success {
+            mail to: 'pratikbandal55@gmail.com',
+                subject: "Pipeline succeeded: ${currentBuild.fullDisplayName}",
+                body: "Application is up and running ${env.BUILD_URL}"
         }
     }
 }
