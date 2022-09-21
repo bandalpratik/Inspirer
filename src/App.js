@@ -210,7 +210,7 @@ function Homepage() {
               <div className="app_signup_heading">
                 Share your files. Store your files.
                 <br />
-                Inspire others from your work
+                Inspi
               </div>
             </center>
             <Input
