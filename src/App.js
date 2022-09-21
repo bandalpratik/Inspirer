@@ -217,7 +217,7 @@ function Homepage() {
               name="signup__username"
               className="app_signUpUsername"
               type="text"
-              placeholder="Username"
+              placeholder="Use"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
             />
