@@ -308,7 +308,7 @@ function Homepage() {
               username={user.displayName}
             />
           ) : (
-            <h3>Sorry you need to login to upload</h3>
+            <h3>Sorry to login to upload</h3>
           )}
         </div>
       </Modal>
