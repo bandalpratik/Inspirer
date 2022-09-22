@@ -226,7 +226,7 @@ function Homepage() {
               name="signup__email"
               className="app_signUpEmail"
               type="email"
-              placeholder="Email"
+              placeholder="Em"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
