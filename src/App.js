@@ -235,7 +235,7 @@ function Homepage() {
               name="signup__password"
               className="app_signUpPassword"
               type="password"
-              placeholder="Password"
+              placeholder="Pass"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
