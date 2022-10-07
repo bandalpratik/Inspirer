@@ -256,7 +256,7 @@ function Homepage() {
             <Input
               className="app_signInEmail"
               type="email"
-              placeholder="Email"
+              placeholder="Em"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
